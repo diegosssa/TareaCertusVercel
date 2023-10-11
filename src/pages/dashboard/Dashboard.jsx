@@ -1,6 +1,11 @@
+import { FormSearch } from "../../components/FormSearch"
+import { Movies } from "../../components/Movies"
 
 export const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <>
+    <FormSearch/>
+        <Movies/>
+        </>        
   )
 }
