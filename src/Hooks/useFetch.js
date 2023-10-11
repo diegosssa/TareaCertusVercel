@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_ENDPOINT = `http://www.omdbapi.com/?apikey=80bd35a0`;
+const API_ENDPOINT = `https://www.omdbapi.com/?apikey=80bd35a0`;
 
 export const useFetch = (params) => {
     const [isLoading, setIsLoading] = useState(true);

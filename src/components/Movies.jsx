@@ -5,6 +5,8 @@ import ItemMovie from "./ItemMovie";
 export const Movies = () => {
     const { isLoading, data } = useContext(DataContext);
 
+    console.log(data)
+
     return ( 
         <div className="movies-content">
             {
